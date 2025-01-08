@@ -29,13 +29,13 @@ If you are using classic scopes then these would be:
 1. Install the requirements listed in `requirements.txt` using [pip](https://pip.pypa.io/en/stable/reference/requirement-specifiers/).
 
     ```bash
-    python -m pip install -r requirements.txt
+    python3 -m pip install -r requirements.txt
     ```
 
 1. Run `zoom_batch_downloader.py`.
 
     ```bash
-    python zoom_batch_downloader.py
+    python3 zoom_batch_downloader.py
     ```
 
 Code written by Georg Kasmin, Lane Campbell, Sami Hassan and Aness Zurba.

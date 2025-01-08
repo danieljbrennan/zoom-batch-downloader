@@ -13,8 +13,8 @@ OUTPUT_PATH = R"16Zoom/"
 
 
 # Date range (inclusive) for downloads, None value for Days gets replaced by first/last day of the month.
-START_DAY, START_MONTH, START_YEAR = None, 1, 2023
-END_DAY, END_MONTH, END_YEAR = None, 12, 2024
+START_DAY, START_MONTH, START_YEAR = None, 12, 2024
+END_DAY, END_MONTH, END_YEAR = None, 1, 2025
 
 # Put here emails of the users you want to check for recordings. If empty, all users under the account will be checked.
 USERS = [
@@ -37,7 +37,7 @@ RECORDING_FILE_TYPES = [
     R"CHAT",           # A TXT file containing in-meeting chat messages that were sent during the meeting.
     R"CC",             # File containing closed captions of the recording in VTT file format.
     R"CSV",            # File containing polling data in CSV format.
-    R"SUMMARY",        # Summary file of the recording in JSON file format.
+#     R"SUMMARY",        # Summary file of the recording in JSON file format.
 ]
 
 # If True, recordings will be grouped in folders by their owning user.
